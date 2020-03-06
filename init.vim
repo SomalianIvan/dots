@@ -46,7 +46,6 @@ if dein#load_state('~/.cache/dein')
     call dein#add('tpope/vim-repeat')
     call dein#add('pangloss/vim-javascript')
     call dein#add('mxw/vim-jsx')
-    call dein#add('pelodelfuego/vim-swoop')
     call dein#add('mhinz/vim-startify')
     call dein#add('jceb/vim-orgmode')
     call dein#add('scrooloose/nerdtree.git')
@@ -204,8 +203,6 @@ function! LightlineGitBranch() abort
 endfunction
 
 let g:deoplete#enable_at_startup = 1
-" vim swoop
-nmap <Leader>l :call Swoop()<CR>
 
 let g:rainbow_active = 1
 
